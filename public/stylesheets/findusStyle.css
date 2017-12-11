@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/*CSS Document*/
+html,body
+{
+	height:100%;
+}
+#wrapper{
+    background:red;
+    overflow:auto;
+}
+
+#mapArea			/*resizing the map*/
+{
+	position:relative;
+	left:10px;
+	top:8px;
+	height:60%;
+	width:40%;
+	border:2px solid #000;   /*set 2px thick border for the map*/
+}
+
+.infoWindowContent
+{
+	line-height:1.35;
+	white-space:nowrap;
+	overflow:hidden;
+	font-size:12px;
+	margin:0;
+	padding:4px 0 0 0;
+	max-height:200px;
+	max-width:360px;
+}
+
+.infoTextPanel
+{
+	width:60%;
+	padding-left:2px;
+	height:40%;
+	float:left;
+	color:#FFF;
+}
+
+#salonAddress			/*resizing the address*/
+{
+	position:relative;
+	left:8px;
+	top:8px;
+	
+	color:red;
+	border:2px solid #000;   /*set 2px thick border for the map*/
+}
